@@ -1,3 +1,5 @@
+  -- psql -U postgres -d blogful -f ./seeds/seed.blogful_articles.sql
+
 INSERT INTO blogful_articles (title, style, content)
 VALUES
   ('First post!', 'Interview',
@@ -20,3 +22,7 @@ VALUES
     'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos architecto repellat, in amet soluta exercitationem perferendis eius perspiciatis praesentium voluptate nisi deleniti eaque? Rerum ea quisquam dolore, non error earum?'),
   ( 'Tenth post', 'How-to',
     'Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum molestiae accusamus veniam consectetur tempora, corporis obcaecati ad nisi asperiores tenetur, autem magnam. Iste, architecto obcaecati tenetur quidem voluptatum ipsa quam?');
+
+
+INSERT INTO users (title, style, content)
+VALUES
